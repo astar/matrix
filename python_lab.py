@@ -1,4 +1,4 @@
-## Task 1
+ ## Task 1
 minutes_in_week = 7*24*60
 
 ## Task 2
@@ -34,14 +34,14 @@ three_digits_set = { base**2*x+base*y+z for x in digits for y in digits for z in
 ## Task 10
 S = {1, 2, 3, 4}
 T = {3, 4, 5, 6}
-S_intersect_T = { ... }
+S_intersect_T = {x | y for x in S  for y in T if x==y}
 
 ## Task 11
-L_average = ... # average of: [20, 10, 15, 75]
+L_average = sum([20, 10, 15, 75])/len([20, 10, 15, 75])
 
 ## Task 12
 LofL = [[.25, .75, .1], [-1, 0], [4, 4, 4, 4]]
-LofL_sum = ... # use form: sum([sum(...) ... ])
+LofL_sum = sum([sum(x) for x in LofL])
 
 ## Task 13
 cartesian_product = ... # use form: [ ... {'A','B','C'} ... {1,2,3} ... ]
